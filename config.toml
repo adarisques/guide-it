@@ -1,4 +1,37 @@
-baseURL = "https://guide-it.ada-risques.fr/"
+baseURL = "https://guide-it.ada-risques.fr"
+
 languageCode = "fr-fr"
+DefaultContentLanguage = "fr"
 title = "Guide d'utilisation des outils informatiques"
-disableKinds = ["taxonomy", "taxonomyTerm", "sitemap"]
+theme = "ace-documentation"
+pygmentsCodeFences = true
+pygmentsStyle = "monokailight"
+
+defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir= false
+enableMissingTranslationPlaceholders = false
+
+[params]
+ordersectionsby = "weight" # ordersectionsby = "title"
+disableSearch = false # default is false
+disableReadmoreNav = false # set true to hide prev/next navigation, default is false
+highlightClientSide = false # set true to use highlight.pack.js instead of the default hugo chroma highlighter
+menushortcutsnewtab = true # set true to open shortcuts links to a new tab/window
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[[menu.shortcuts]]
+name = "AdA Risques"
+url = "https://ada-risques.fr"
+weight = 1
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-github'></i>"
+url = "https://github.com/adarisques/guide-it"
+weight = 2
