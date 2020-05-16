@@ -4,7 +4,7 @@ weight: 2
 ---
 L'AdA emploie des signatures semblables à celle-ci :
 
-<blockquote class="bg-light small p-3">
+<blockquote>
     <div style="font-family: monospace; color: rgb(0, 0, 128);">
         <p style="font-style: italic; font-weight: bold; color: rgb(153, 204, 0);">
         **** Pour mettre à jour ta cotisation : <a href="https://ada-risques.fr/article3">https://ada-risques.fr/article3</a><br>
@@ -27,8 +27,8 @@ Tu peux utiliser le générateur de signature disponible sur https://mail.ada-ri
 Pour Thunderbird, utilise le bouton <i class="fa fa-code"></i> pour copier le code source HTML et non le texte mis en forme.
 
 {{<panel style="warning" title="Sur le webmail mail.ada-risques.fr">}}
-1. Aller sur la page <span class="p-1" style="background:#1c1c1c;color:rgb(238,238,238)"><i class="fa fa-cog"></i> Paramètres</i>
-2. Aller sur l'onglet <span class="p-1" style="background:#d9ecf4;color:#376572"><i class="fa fa-user"></i> Identités</i>
+1. Aller sur la page <span class="rc-tab"><i class="fa fa-cog"></i> Paramètres</i>
+2. Aller sur l'onglet <span class="rc-page"><i class="fa fa-user"></i> Identités</i>
 3. Cliquer sur l'identité.
 4. Remplir les différents champs
 5. Cocher `Signature HTML`

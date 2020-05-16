@@ -14,11 +14,11 @@ L'envoi de mailing se fait à l'aide de listes de diffusions :
 Toutes ces listes sont modérées, tant pour l'inscription que pour l'envoi de messages, par `president`, `sg`, `tresorier` et `webmaster`.
 
 {{<panel style="info">}}
-Pour se désinscrire d'une liste, il suffit d'envoyer un message à <code><i class="text-muted">⟨laliste⟩</i>-unsubscribe@ada-risques.fr</code> ou de le demander au chargé de mission « Outils informatiques ».
+Pour se désinscrire d'une liste, il suffit d'envoyer un message à <code><var>laliste</var>-unsubscribe@ada-risques.fr</code> ou de le demander au chargé de mission « Outils informatiques ».
 {{</panel>}}
 
 Tu peux ajouter cette information à ta signature :
-<blockquote class="bg-light small p-3">
+<blockquote>
     <div style="font-family: monospace; color: rgb(0, 0, 128);">
         <p class="mb-0">Si tu ne souhaite plus être contacté par l'AdA Risques, envoi un message à <a href="mailto:alumni-unsubscribe@ada-risques.fr">alumni-unsubscribe@ada-risques.fr</a></p>
     </div>

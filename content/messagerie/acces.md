@@ -63,7 +63,7 @@ Le chargé de mission « Outils informatiques » pourra réinitialiser ton m
 Le mot de passe doit comporter entre 9 caractères et 30 caractères et aucun caractère accentué.
 
 {{<panel style="warning" title="Sur le webmail mail.ada-risques.fr">}}
-1. Aller sur la page <span class="p-1" style="background:#1c1c1c;color:rgb(238,238,238)"><i class="fa fa-cog"></i> Paramètres</i>
-2. Aller sur l'onglet <span class="p-1" style="background:#d9ecf4;color:#376572"><i class="fa fa-ellipsis-h"></i> Mot de passe</i>
+1. Aller sur la page <span class="rc-page"><i class="fa fa-cog"></i> Paramètres</i>
+2. Aller sur l'onglet <span class="rc-tab"><i class="fa fa-ellipsis-h"></i> Mot de passe</i>
 3. Changer son mot de passe
 {{</panel>}}
