@@ -1,7 +1,7 @@
 ---
 title: Bienvenue !
 ---
-Ce guide concentre toute l'information sur l'utilisation des outils informatiques de l'AdA Risques.
+{{<lead>}} Ce guide concentre toute l'information sur l'utilisation des outils informatiques de l'AdA Risques. {{</lead>}} 
 
 Pour le faire évoluer :
 
