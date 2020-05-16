@@ -1,0 +1,29 @@
+@import "bootstrap/bootstrap";
+@import "ace";
+
+.card-body > p:last-child {
+    margin-bottom: 0;
+}
+
+.rc-page {
+    @extend .px-1, .d-inline-block;
+    background: #1c1c1c;
+    color: #eeeeee;
+}
+
+.rc-tab {
+    @extend .px-1, .d-inline-block;
+    background: #d9ecf4;
+    color: #376572;
+}
+
+blockquote {
+    @extend .bg-light, .small, .p-3;
+}
+
+var {
+    @extend .text-secondary;
+
+    &:before { content: "⟨"; }
+    &:after { content: "⟩"; }
+}
