@@ -4,7 +4,7 @@ weight: 1
 ---
 Tu peux accéder à ta boîte avec le webmail disponible à l'adresse https://mail.ada-risques.fr.
 
-{{<panel style="info">}}
+{{<panel style="info" title="À ton service !">}}
 La configuration du webmail pouvant évoluer à la demande, n'hésite pas à remonter tout besoin ou anomalie au chargé de mission « Outils informatiques ».
 {{</panel>}}
 
@@ -48,16 +48,11 @@ Tu peux également configurer ton client de messagerie préféré à l'aide des 
     </tbody>
 </table>
 
-{{<panel style="info">}}
-L'utilisation d'un client de messagerie personnel plutôt que le webmail permet de limiter l'impact des quotas imposés par OVH (voir section suivante).
-{{</panel>}}
-
 Le mot de passe par défaut est « `ada2019-RISQUES` ».
 
-{{<panel style="danger">}}
-Tu es plus que vivement invité à personnaliser le mot de passe de ta boîte mail.
-
-Le chargé de mission « Outils informatiques » pourra réinitialiser ton mot de passe en cas de difficulté.
+{{<panel style="danger" title="Change ton mot de passe !">}}
+On dit parfois « qu'un mot de passe c'est comme un slip, c'est personnel et ça se change souvent »... tu es donc plus que vivement encouragé à personnaliser le mot de passe de ta boîte mail.
+En cas de difficulté, le chargé de mission « Outils informatiques » pourra te le réinitialiser.
 {{</panel>}}
 
 Le mot de passe doit comporter entre 9 caractères et 30 caractères et aucun caractère accentué.

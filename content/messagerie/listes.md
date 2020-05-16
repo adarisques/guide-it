@@ -24,19 +24,21 @@ Tu peux ajouter cette information à ta signature :
     </div>
 </blockquote>
 
-{{<panel style="danger">}}
-Cette information **doit** apparaître dans les messages, sous peine de très mauvaise ambiance avec ceux qui ne souhaiterait plus recevoir de messages. Merci aux modérateurs de le vérifier !
+{{<panel style="danger" title="Soit cool !">}}
+Cette information **doit** apparaître dans les messages, sous peine de très mauvaise ambiance avec ceux qui ne souhaiteraient plus recevoir de messages. (Et merci aux modérateurs de le vérifier avant validaton !).
 {{</panel>}}
 
-Pour envoyer un mailing, il suffit d'adresser (`Pour/À/To` ou `Copie/Cc`, mais pas `Copie cachée/Cci/Bcc`) le message voulu à l'adresse de la liste, par exemple [`tests@ada-risques.fr`](mailto:tests@ada-risques.fr).
+Pour diffuser un mailing, il suffit d'envoyer le message voulu à l'adresse de la liste  (en `Pour/À/To` ou `Copie/Cc`, mais pas `Copie cachée/Cci/Bcc`), par exemple [`tests@ada-risques.fr`](mailto:tests@ada-risques.fr).
 
-Les modérateurs recevront un email de validation auquel il leur suffira de répondre après avoir vérifié.
+Les modérateurs recevront un email de validation auquel il suffira à l'un d'entre eux de répondre après avoir vérifié le message à diffuser.
 
-Pour rejeter un message (et ne pas l'envoyer à la liste), les modérateurs doivent répondre à une adresse spécifique de rejet qui est précisée dans l'email de modération. En cas de doute, demander au chargé de mission « Outils informatiques » de le faire.
+Pour rejeter un message (et ne pas le diffuser), les modérateurs doivent répondre à une adresse spécifique de rejet qui est précisée dans l'email de modération. En cas de doute, demander au chargé de mission « Outils informatiques » de le faire.
+
+Le message sera transmis tel quel, à la modification près du titre qui sera préfixé du nom de la liste. Les adresses destinataires ou en copie seront conservées et visibles des destinataires.
 
 ## Listes réservées
 
-Seul les membres respectifs des listes peuvent écrire à la liste. L'inscription est modérée par `president` et `webmaster`.
+L'inscription est modérée par `president` et `webmaster` et seul les membres inscrits peuvent (librement) écrire à leur liste. 
 
 La liste [`bureau`](mailto:tests@ada-risques.fr) rassemble `president`, `sg`, `tresorier`, `emplois`, `vp-interfaces` et `vp-reseaux`.
 
