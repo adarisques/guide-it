@@ -1,0 +1,4 @@
+baseURL = "https://guide-it.ada-risques.fr/"
+languageCode = "fr-fr"
+title = "Guide d'utilisation des outils informatiques"
+disableKinds = ["taxonomy", "taxonomyTerm", "sitemap"]
