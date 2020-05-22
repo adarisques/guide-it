@@ -21,7 +21,7 @@ $primary: #400080;
 }
 
 blockquote {
-    @extend .bg-light, .small, .p-3;
+    @extend .bg-light, .p-3;
 }
 
 var {
@@ -29,4 +29,18 @@ var {
 
     &:before { content: "⟨"; }
     &:after { content: "⟩"; }
+}
+/* Typography styling */
+.main > h1{
+    padding-top: 0;
+}
+
+.main > h2{
+    padding-top: 2rem;
+    margin-top:-1rem;
+}
+
+.main > h3, .main > h4, .main > h5, .main > h6{
+    padding-top: 2rem;
+    margin-top:-3rem;
 }
