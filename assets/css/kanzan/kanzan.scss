@@ -19,3 +19,10 @@ a {
     font-family: 'Lexend Deca', sans-serif;
     letter-spacing: .25ex;
 }
+
+var {
+    @extend .text-muted;
+
+    &:before { content: "⟨"; }
+    &:after { content: "⟩"; }
+}
