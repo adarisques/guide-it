@@ -58,7 +58,7 @@ En cas de difficulté, le chargé de mission « Outils informatiques » pour
 Le mot de passe doit comporter entre 9 caractères et 30 caractères et aucun caractère accentué.
 
 {{<panel style="warning" title="Sur le webmail mail.ada-risques.fr">}}
-1. Aller sur la page <span class="rc-page"><i class="fa fa-cog"></i> Paramètres</i>
-2. Aller sur l'onglet <span class="rc-tab"><i class="fa fa-ellipsis-h"></i> Mot de passe</i>
-3. Changer son mot de passe
+1. Va sur la page <span class="rc-page"><i class="fa fa-cog"></i> Paramètres</i>
+2. Va sur l'onglet <span class="rc-tab"><i class="fa fa-ellipsis-h"></i> Mot de passe</i>
+3. Change ton mot de passe
 {{</panel>}}
