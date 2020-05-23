@@ -3,17 +3,6 @@ function Promotion(year, major) {
     this.major = major
 }
 
-function Signature(name, promotion, role, email, ownEmail, phone, list, withList) {
-    this.name = name
-    this.promotion = promotion
-    this.role = role
-    this.email = email
-    this.ownEmailPerso = ownEmail
-    this.phone = phone
-    this.list = list
-    this.withList = withList
-}
-
 Vue.component('PromotionInput', {
     data: function() {
         return {
@@ -56,7 +45,7 @@ window.addEventListener('load', function() {
         data: {
             prenom: '',
             nom: '',
-            promotion: { year: 2010, major: 'MRI' },
+            promotion: new Promotion(2010, 'MRI'),
             fonction: '',
             email: '',
             emailPerso: '',
