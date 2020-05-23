@@ -1,0 +1,10 @@
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" integrity="sha256-FiZwavyI2V6+EXO1U+xzLG3IKldpiTFf3153ea9zikQ=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js" integrity="sha256-chlNFSVx3TdcQ2Xlw7SvnbLAavAQLO0Y/LBiWX04viY=" crossorigin="anonymous"></script>
+{{ $script := resources.Get "js/signature.js" | resources.Minify | resources.Fingerprint "sha256" }}
+<script type="text/javascript" src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+<div id="signature-app">
+    {{ print .Inner | markdownify }}
+</div>
+<div class="fixed-bottom text-center h5 p-3">
+    <span class="badge badge-pill badge-dark font-weight-normal invisible px-3 py-2" id="signature-notification">Notification</span>
+</div>

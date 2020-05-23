@@ -1,0 +1,25 @@
+.signature div>:last-child {
+    @extend .mb-0;
+}
+
+.custom-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.input-group-vertical {
+    & > .input-group-vertical-item:not(:first-child) {
+        .input-group-text, .form-control {
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            border-top: 0;
+        }
+    }
+    & > .input-group-vertical-item:not(:last-child) {
+        .input-group-text, .form-control {
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+    }
+}

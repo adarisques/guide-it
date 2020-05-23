@@ -3,6 +3,7 @@ $primary: #400080;
 @import "bootstrap/bootstrap";
 @import "ace";
 @import "kanzan/kanzan";
+@import "signature";
 
 .card-body > p:last-child {
     margin-bottom: 0;

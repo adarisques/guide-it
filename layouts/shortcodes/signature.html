@@ -1,0 +1,26 @@
+<blockquote class="signature p-3">
+    <div style="font-family:monospace;color:#000080">
+        <p style="font-style:italic;font-weight:bold;color:#99cc00">
+            **** Pour mettre à jour ta cotisation :
+            <a href="https://ada-risques.fr/article3">https://ada-risques.fr/article3</a><br/>
+            **** Pour te connecter à ton compte :
+            <a href="https://enet.ada-risques.fr/">https://enet.ada-risques.fr/</a>
+        </p>
+        <p><b>${nom || "Prénom Nom" }</b> (Promo ${promotion.year} ${promotion.major})</p>
+        <p style="font-style:italic">
+            <b>${fonction || "Fonction"} de l'AdA Risques : Association des alumni MRI, STI, ERE et Hubert Curien</b><br/>
+            <b>(ex-<i>AdA ENSI de Bourges</i>)</b><br/>
+            88, boulevard Lahitolle &ndash; 18020 Bourges Cedex<br/>
+            <span v-if="telephone"><b>Tél.</b>&nbsp;: ${telephone}<br/></span>
+            <b>Mél.</b>&nbsp;:
+                <a v-bind:href="'mailto:' + email + '@ada-risques.fr'">${email || "fonction"}@ada-risques.fr</a>
+                <span v-if="emailPerso"> &ndash; <a v-bind:href="'mailto:' + emailPerso">${emailPerso}</a></span><br/>
+            <b>Web</b>&nbsp;:
+                <a href="https://ada-risques.fr">https://ada-risques.fr</a>
+        </p>
+        <p style="font-size:80%" v-if="avecListe">
+            Si tu ne souhaites plus être inclu aux mailings de l'AdA Risques, envoie un message à
+            <a href="mailto:alumni-unsubscribe@ada-risques.fr">${liste}-unsubscribe@ada-risques.fr</a>
+        </p>
+    </div>
+</blockquote>
