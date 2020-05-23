@@ -38,8 +38,8 @@ Le message sera transmis tel quel, à la modification près du titre qui sera pr
 
 ## Listes réservées
 
-L'inscription est modérée par `president` et `webmaster` et seul les membres inscrits peuvent (librement) écrire à leur liste. 
+L'inscription est modérée par `president` et `webmaster` et seul les membres inscrits peuvent (librement) écrire à leur liste.
 
-La liste [`bureau`](mailto:tests@ada-risques.fr) rassemble `president`, `sg`, `tresorier`, `emplois`, `vp-interfaces` et `vp-reseaux`.
+La liste [`bureau`](mailto:bureau@ada-risques.fr) rassemble `president`, `sg`, `tresorier`, `emplois`, `vp-interfaces` et `vp-reseaux`.
 
-Une liste [`ca`](mailto:tests@ada-risques.fr) est à l'étude.
+Une liste [`ca`](mailto:ca@ada-risques.fr) est à l'étude.
