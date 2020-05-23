@@ -16,7 +16,7 @@ Pour Thunderbird, utilise le bouton <i class="fa fa-code"></i> pour copier le co
 
 {{</signature-app>}}
 
-{{<panel style="warning" title="Sur le webmail mail.ada-risques.fr">}}
+{{<panel style="info" title="Sur le webmail mail.ada-risques.fr">}}
 1. Aller sur la page <span class="rc-tab"><i class="fa fa-cog"></i> Paramètres</i>
 2. Aller sur l'onglet <span class="rc-page"><i class="fa fa-user"></i> Identités</i>
 3. Cliquer sur l'identité.

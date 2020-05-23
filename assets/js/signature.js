@@ -35,7 +35,11 @@ var toast = function (target, text) {
     if (el == null) return;
     el.innerText = text;
     el.classList.remove('invisible');
-    setTimeout(() => { el.classList.add('invisible'); }, 3000);
+    el.parentElement.classList.remove('d-none');
+    setTimeout(() => {
+        el.classList.add('invisible');
+        el.parentElement.classList.add('d-none');
+    }, 3000);
 }
 
 window.addEventListener('load', function() {
@@ -78,13 +82,13 @@ window.addEventListener('load', function() {
     new ClipboardJS('.btn-primary', {
         target: function(trigger) {
             toast("#signature-notification", "Signature hypertexte copiée");
-            return document.querySelector("#signature-content");
+            return document.querySelector(".signature");
         }
     });
     new ClipboardJS('.btn-secondary', {
         text: function(trigger) {
             toast("#signature-notification", "Code source de la signature copié");
-            return document.querySelector("#signature-content").innerHTML
+            return document.querySelector(".signature").innerHTML
                 .replace(/\n +/g, " ")
                 .replace(/(<br>) */g, "$1\n")
                 .replace(/(<\/p>) */g, "$1\n")
