@@ -1,5 +1,6 @@
 ---
-title: Utilisation de la messagerie
+title: Utiliser la messagerie
+weight: 1
 ---
 {{<lead>}} Pour péréniser l'information et faciliter sa diffusion, l'AdA Risque a sa propre messagerie email. {{</lead>}}
 
