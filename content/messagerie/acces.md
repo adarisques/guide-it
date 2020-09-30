@@ -48,8 +48,6 @@ Tu peux également configurer ton client de messagerie préféré à l'aide des 
     </tbody>
 </table>
 
-Le mot de passe par défaut est « `ada2019-RISQUES` ».
-
 {{<panel style="danger" title="Change ton mot de passe !">}}
 On dit parfois « qu'un mot de passe c'est comme un slip, c'est personnel et ça se change souvent »... tu es donc plus que vivement encouragé à personnaliser le mot de passe de ta boîte mail.
 En cas de difficulté, le chargé de mission « Outils informatiques » pourra te le réinitialiser.
