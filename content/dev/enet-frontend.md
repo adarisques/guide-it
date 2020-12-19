@@ -1,5 +1,5 @@
 ---
-title: Développeur front-end - enet
+title: Développeur front-end · e-net
 weight: 2
 ---
 

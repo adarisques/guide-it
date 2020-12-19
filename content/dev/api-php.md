@@ -1,5 +1,5 @@
 ---
-title: Développeur PHP - API
+title: Développeur PHP · API
 weight: 1
 ---
 

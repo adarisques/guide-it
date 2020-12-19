@@ -1,5 +1,5 @@
 ---
-title: Content manager / UX designer - Site vitrine
+title: Content manager / UX designer · Site vitrine
 weight: 3
 ---
 
