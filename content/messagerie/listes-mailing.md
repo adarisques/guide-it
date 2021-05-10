@@ -7,9 +7,9 @@ L'envoi de mailing se fait à l'aide de listes de diffusion :
 
 - [`alumni`](mailto:alumni@ada-risques.fr) : tous les alumni, quelque soit leur statut d'adhésion... à utiliser avec parcimonie ;
 - [`adherents`](mailto:adherents@ada-risques.fr) : tous les membres adhérents, cette liste n'est pas utilisable pour l'instant, devant être à terme alimentée par <a class="app-name">e-net</a> ;
-- [`tests`](mailto:tests@ada-risques.fr) : simule l'utilisation des listes précédentes en ne servant que `president`, `sg` et `tresorier`.
+- [`tests`](mailto:tests@ada-risques.fr) : simule l'utilisation des listes précédentes en ne servant que `president`, `sg`, `tresorier` et `vp-reseaux`.
 
-Toutes ces listes sont modérées, tant pour l'inscription que pour l'envoi de messages, par `president`, `sg`, `tresorier` et `webmaster`.
+Toutes ces listes sont modérées, tant pour l'inscription que pour l'envoi de messages, par `president`, `sg`, `tresorier`, `vp-reseaux` et `webmaster`.
 
 ## Permettre la désinscription
 
