@@ -1,6 +1,6 @@
 ---
 title: Aider au développement
-weight: 2
+weight: 3
 ---
 {{<lead>}} Côté technique, l'AdA, ce sont des outils, mais surtout des gens. {{</lead>}}
 
