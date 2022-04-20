@@ -1,3 +1,6 @@
 [submodule "themes/ace-documentation"]
 	path = themes/ace-documentation
 	url = https://github.com/vantagedesign/ace-documentation.git
+[submodule "assets/js/signature"]
+	path = assets/js/signature
+	url = git@github.com:adarisques/signature.git
