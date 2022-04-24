@@ -5,20 +5,16 @@
 <script src="{{ "js/bootstrap.min.js" | relURL }}"></script> <!-- Other javascript -->
 
 <!-- Plugin: search -->
-<script type="text/javascript" src="{{"plugins/lunr.min.js" | relURL}}"></script>
-<script type="text/javascript" src="{{"plugins/auto-complete.js" | relURL}}"></script>
-<link href="{{"plugins/auto-complete.css" | relURL}}" rel="stylesheet">
+<script type="text/javascript" src="{{ "plugins/lunr.min.js" | relURL }}"></script>
+<script type="text/javascript" src="{{ "plugins/auto-complete.js" | relURL }}"></script>
+<link href="{{ "plugins/auto-complete.css" | relURL }}" rel="stylesheet">
 <script type="text/javascript">
-  {{ if .Site.IsMultiLingual }}
-      var baseurl = "/{{.Site.LanguagePrefix}}";
-  {{ else }}
-      var baseurl = "/";
-  {{ end }}
+  var baseurl = "/{{ if .Site.IsMultiLingual }}{{ .Site.LanguagePrefix }}{{ end }}";
 </script>
-<script type="text/javascript" src="{{"plugins/search.js" | relURL}}"></script>
+<script type="text/javascript" src="{{ "plugins/search.js" | relURL }}"></script>
 
 <!-- Plugin: clipboard -->
-<script type="text/javascript" src="{{"plugins/clipboard.js" | relURL}}"></script>
-<script>
+<script type="text/javascript" src="{{ "plugins/clipboard.js" | relURL }}"></script>
+<script type="text/javascript">
   new ClipboardJS('.btn');
 </script>
