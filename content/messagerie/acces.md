@@ -60,3 +60,18 @@ Le mot de passe doit comporter entre 9 caractères et 30 caractères et aucun ca
 2. Va sur l'onglet <span class="rc-tab"><i class="fa fa-ellipsis-h"></i> Mot de passe</i>
 3. Change ton mot de passe
 {{</panel>}}
+
+{{<password-app>}}
+
+{{<panel style="info" title="Passation entre membres du bureau">}}
+Afin de ne pas compromettre de mot de passe personnalisé ni faire intervenir de tiers :
+
+1. L'ancien titulaire change le mot de passe de sa boîte.\
+   Pour l'aider : <button class="btn btn-sm btn-primary generate-password">Générer un mot de passe aléatoire</button>
+2. L'ancien titulaire communique ce nouveau mot de passe à son successeur
+3. Le successeur peut ensuite personnaliser le mot de passe
+4. Le successeur pourra ensuite réinitialiser le mot de passe d'accès à l'administration du site vitrine
+
+En cas de difficulté, le chargé de mission « Outils informatiques » pourra réinitialiser le mot de passe.
+{{</panel>}}
+
